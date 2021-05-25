@@ -27,7 +27,7 @@ print(f'\nSimulating {roll_total} die rolls!', '\n')
 # display the die roll totals calculated and stored in each position of the list  
 print(f'Face {"Frequency":>13}')  # heading
 for index in range(len(face_totals)): 
-    # the position in the list (+1, zer-based index) represents the face of the die rolled
+    # the position in the list (+1, zero-based index) represents the face of the die rolled
     # the total was stored in the index+1 position of the list for corresponding die roll face value
     print(f'{index+1:>4} {face_totals[index]:>13}')  
     
