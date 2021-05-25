@@ -1,4 +1,4 @@
-from random import Random, randrange
+from random import randrange
 
 # create list that will hold totals of the die rolls
 face_totals = [0,0,0,0,0,0,0,0,0,0,0,0]
